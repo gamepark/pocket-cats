@@ -1,3 +1,3 @@
-export { GameTemplateRules } from './GameTemplateRules'
-export { GameTemplateOptionsSpec } from './GameTemplateOptions'
-export { GameTemplateSetup } from './GameTemplateSetup'
+export { PocketCatsRules } from './PocketCatsRules'
+export { PocketCatsOptionsSpec } from './PocketCatsOptions'
+export { PocketCatsSetup } from './PocketCatsSetup'

@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
-import { GameTemplateOptionsSpec } from '@gamepark/game-template/GameTemplateOptions'
-import { GameTemplateRules } from '@gamepark/game-template/GameTemplateRules'
-import { GameTemplateSetup } from '@gamepark/game-template/GameTemplateSetup'
+import { PocketCatsOptionsSpec } from '@gamepark/pocket-cats/PocketCatsOptions'
+import { PocketCatsRules } from '@gamepark/pocket-cats/PocketCatsRules'
+import { PocketCatsSetup } from '@gamepark/pocket-cats/PocketCatsSetup'
 import { GameProvider, MaterialGameAnimations, setupTranslation } from '@gamepark/react-game'
 import { StrictMode } from 'react'
 import ReactDOM from 'react-dom'
@@ -14,7 +14,7 @@ setupTranslation(translations, { debug: false })
 
 ReactDOM.render(
   <StrictMode>
-    <GameProvider game="game-template" Rules={GameTemplateRules} optionsSpec={GameTemplateOptionsSpec} GameSetup={GameTemplateSetup}
+    <GameProvider game="pocket-cats" Rules={PocketCatsRules} optionsSpec={PocketCatsOptionsSpec} GameSetup={PocketCatsSetup}
                   material={Material} locators={Locators} animations={new MaterialGameAnimations()}>
       <App/>
     </GameProvider>
