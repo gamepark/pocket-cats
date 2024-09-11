@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react'
-import { PlayerColor } from '@gamepark/pocket-cats/PlayerColor'
+import { CatClan } from '@gamepark/pocket-cats/CatClan'
 import { StyledPlayerPanel, usePlayers } from '@gamepark/react-game'
 import { FC } from 'react'
 import { createPortal } from 'react-dom'
@@ -29,9 +29,12 @@ const panelPosition = (index: number) => css`
   height: 14em;
 `
 
-export const playerColorCode: Record<PlayerColor, string> = {
-  [PlayerColor.Red]: 'red',
-  [PlayerColor.Blue]: 'blue',
-  [PlayerColor.Green]: 'green',
-  [PlayerColor.Yellow]: 'yellow'
+export const playerColorCode: Record<CatClan, string> = {
+  [CatClan.RoyalClaws]: 'purple',
+  [CatClan.Gourmets]: 'green',
+  [CatClan.Crooks]: 'orange',
+  [CatClan.DefendersOfJustice]: 'red',
+  [CatClan.Chaoticats]: 'pink',
+  [CatClan.PowerCats]: 'dodgerblue',
+  [CatClan.Polterkitties]: 'blue'
 }

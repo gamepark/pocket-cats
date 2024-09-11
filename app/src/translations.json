@@ -1,6 +1,14 @@
 {
   "en": {
     "translation": {
+      "Name": "Pocket Cats",
+      "clan.1": "The Royal Claws",
+      "clan.2": "The Gourmets",
+      "clan.3": "The Crooks",
+      "clan.4": "The Defenders of Justice",
+      "clan.5": "The Chaoticats",
+      "clan.6": "The Power Cats",
+      "clan.7": "The Polterkitties",
       "Menu": "Menu",
       "OK": "OK",
       "Validate": "Validate",
@@ -115,6 +123,14 @@
   },
   "fr": {
     "translation": {
+      "Name": "Chats de Poche",
+      "clan.1": "Les Griffes du Roi",
+      "clan.2": "Les Gourmands",
+      "clan.3": "Les Malfrats",
+      "clan.4": "Les Justiciers",
+      "clan.5": "Les Chat peu-près",
+      "clan.6": "Les Power Cats",
+      "clan.7": "Les Fantominous",
       "Menu": "Menu",
       "OK": "OK",
       "Validate": "Valider",
